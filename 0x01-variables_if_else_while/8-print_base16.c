@@ -1,0 +1,21 @@
+#include <stdio.h>
+/**
+ * main - Entery point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
+{
+	char x;
+
+	for (x = '1'; x < '10'; x++)
+	{
+		putchar(x);
+	}
+	for (x = 'a'; x <= 'f'; x++)
+	{
+		putchar(x);
+	}
+	putchar('\n');
+	return (0);
+}
